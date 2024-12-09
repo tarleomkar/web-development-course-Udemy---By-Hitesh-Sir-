@@ -90,8 +90,8 @@ Feel free to fork this repository, suggest improvements, or learn along with me!
 ## 📬 Contact
 
 If you have questions or want to connect:
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/your-profile)
+- **Email**: tarleomkar8@gmail.com
+- **LinkedIn**: [Your Profile](https://www.linkedin.com/in/omkar-tarle-686115220/)
 
 ---
 
