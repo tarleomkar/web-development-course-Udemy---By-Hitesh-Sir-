@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercie 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        .nav-container {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .nav1 {
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        .nav1 ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            /* look and variation */
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav1 li {
+            display: inline;
+            /* <li> is block level element so making it o block bro good practice*/
+        }
+
+        .nav1 a {
+            text-decoration: none;
+            color: rgb(71, 62, 62);
+            background-color: #fff;
+            padding: 5px 15px;
+            position: relative;
+        }
+
+        .nav1 a::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: rgb(83, 83, 229);
+            transform: scaleX(0);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .nav1 a:hover::after {
+            transform: scaleX(1);
+        }
+
+        .nav1 .login-btn {
+            background-color: rgb(22, 71, 194);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        .nav2 {
+            background-color: #1e4923;
+        }
+
+        .nav2 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav2 li {
+            margin-bottom: 12px;
+        }
+
+        .nav2 a {
+            text-decoration: none;
+            display: block;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .nav2 a:hover {
+            background-color: rgb(90, 176, 90);
+        }
+
+        .nav2 .login-btn {
+            background-color: #048a2f;
+            color: #fff;
+            border-radius: 5px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+
+        .nav2 .login-btn:hover {
+            background-color: rgb(9, 64, 9);
+            border: 1px solid #fff;
+        }
+
+        .nav3 {
+            background-color: rgb(81, 197, 221);
+            padding: 10px;
+        }
+
+        .nav3 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav3 a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+
+        .nav3 .dropdown-content {
+            display: none;
+        }
+
+        .nav3 .dropdown:hover .dropdown-content {
+            display: block;
+            position: absolute;
+            background-color: #1a1a1a;
+            color: #1a1a1a;
+            min-width: 150px;
+        }
+
+        .nav3 .dropdown-content a:hover {
+            background-color: rgb(56, 140, 171);
+            border: 1px solid #fff;
+        }
+
+        .nav3 .login-btn {
+            background-color: rgb(26, 109, 128);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 6px;
+            cursor: pointer;
+            margin-left: 8px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <h2>Varation 1: Horizontal with underline effect</h2>
+        <nav class="nav1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><button class="login-btn">Login</button></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="nav-container">
+        <h2>Varation 2: Verticle with hover effect</h2>
+        <nav class="nav2">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+            <button class="login-btn">Login</button>
+        </nav>
+    </div>
+    <div class="nav-container">
+        <h2>Varation 3: Horizontal with dropdown</h2>
+        <nav class="nav3">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">Our story</a>
+                        <a href="#">Team</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </li>
+                <li><a href="#">Products</a></li>
+                <button class="login-btn">Login</button>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
