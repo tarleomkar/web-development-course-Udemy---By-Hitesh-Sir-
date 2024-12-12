@@ -79,7 +79,7 @@ London: 8900000,
 };
 
 */
-
+/*
 let citiesPopulation = {
   London: 8900000,
   "New York": 8400000,
@@ -100,5 +100,6 @@ for (const city in citiesPopulation) {
     cityNewPopulations[city] = citiesPopulation[city];
 }
 console.log(cityNewPopulations); // { London: 8900000, 'New York': 8400000 }
+*/
 
 
