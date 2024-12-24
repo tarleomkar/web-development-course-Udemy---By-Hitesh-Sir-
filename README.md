@@ -57,8 +57,10 @@ web-development-course-Udemy---By-Hitesh-Sir/
 | Date         | Topic Covered                            | Status  |
 |--------------|------------------------------------------|---------|
 | 2024-12-09  | Repository Initialization, README Setup  | ✅      |
-| 2024-12-10  | Basics of HTML5 and CSS3                 | 🛠️      |
-| ...          | ...                                      | ...     |
+| 2024-12-10  | Basics of HTML5 and CSS3                 | ✅🛠️     |
+| 2024-12-10  | Js foundation done till basics, datatype,
+                operators, conditionals, array & methods,
+                functions, js OOP                        | ...     |
 
 ---
 
