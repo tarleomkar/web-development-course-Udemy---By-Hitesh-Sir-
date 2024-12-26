@@ -61,7 +61,8 @@ web-development-course-Udemy---By-Hitesh-Sir/
 | 2024-12-18  | Js foundation done till basics, datatype,| ✅       |
 | 2024-12-20  | Operators, conditionals, array & methods,| ✅       |
 | 2024-12-22  | functions, js OOP                        | ✅       | 
-| 2024-12-24  | js OOP                                   | 🛠️       |
+| 2024-12-24  | js OOP                                   | ✅       |
+| 2024-12-26  | js DOM                                   | 🛠️       |
 ---
 
 ## 📊 Visual Overview
